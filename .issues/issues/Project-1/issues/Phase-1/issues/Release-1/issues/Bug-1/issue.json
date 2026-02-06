@@ -1,0 +1,18 @@
+{
+  "node_id": "5427639e",
+  "node_type": "bug",
+  "node_index": 1,
+  "label": "Bug-1",
+  "title": "Child issue creation fails in UI",
+  "description": "Creating a child issue triggers: \"window.issuesApp.messages.error is not a function\" in node-detail.js.\n\nObserved while adding child issue to Feature-1; network response returns success but UI throws TypeError.",
+  "status": "backlog",
+  "created_at": 1770339269301,
+  "updated_at": 1770339269301,
+  "created_by": "system",
+  "tags": [
+    "ui",
+    "bug"
+  ],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,15 @@
+{
+  "node_id": "6ffca696",
+  "node_type": "release",
+  "node_index": 1,
+  "label": "Release-1",
+  "title": "Release 1",
+  "description": "First release for Phase 1",
+  "status": "active",
+  "created_at": 1770339269301,
+  "updated_at": 1770339269301,
+  "created_by": "system",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}
