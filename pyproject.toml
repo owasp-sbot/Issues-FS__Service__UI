@@ -1,6 +1,6 @@
 [tool.poetry]
 name        = "issues_fs_service_ui"
-version     = "v0.1.7"
+version     = "v0.1.8"
 description = "Issues-FS Service UI - Web-based user interface"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "Apache 2.0"
