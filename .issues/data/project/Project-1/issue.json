@@ -1,0 +1,24 @@
+{
+  "node_id": "ace23726",
+  "node_type": "project",
+  "node_index": 1,
+  "label": "Project-1",
+  "title": "Issues-FS__Service__UI",
+  "description": "FastAPI-based web UI for the Issues-FS ecosystem. Provides a console interface for viewing and managing issues tracked in the file-based GitGraph system.",
+  "status": "active",
+  "created_at": 1770341429042,
+  "updated_at": 1770341429042,
+  "tags": ["issues-fs", "ui", "fastapi", "web"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-release",
+      "target_id": "0ade06c6",
+      "target_label": "Release-1",
+      "created_at": 1770341429042
+    }
+  ],
+  "properties": {
+    "github_repo": "https://github.com/owasp-sbot/Issues-FS__Service__UI"
+  }
+}

@@ -13,6 +13,13 @@
   "links": [
     {
       "link_type_id": "d516fa2b",
+      "verb": "feature-of",
+      "target_id": "0ade06c6",
+      "target_label": "Release-1",
+      "created_at": 1770341429042
+    },
+    {
+      "link_type_id": "d516fa2b",
       "verb": "has-task",
       "target_id": "042e2994",
       "target_label": "Task-3",
