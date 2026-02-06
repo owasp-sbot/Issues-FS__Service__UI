@@ -1,0 +1,30 @@
+{
+  "node_id": "042e2994",
+  "node_type": "task",
+  "node_index": 3,
+  "label": "Task-3",
+  "title": "Create screenshot capture for test evidence",
+  "description": "Implement screenshot capture functionality in Playwright tests to save visual evidence of test runs. Screenshots stored in tests/ui/screenshots/ with timestamped filenames. Code commented out due to Chromium install issues - requires OSBot-Playwright integration first.",
+  "status": "backlog",
+  "created_at": 1770339633775,
+  "updated_at": 1770340008349,
+  "created_by": "ae6982ea",
+  "tags": ["testing", "screenshots"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "task-of",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770339633775
+    },
+    {
+      "link_type_id": "3136db38",
+      "verb": "blocked-by",
+      "target_id": "4b874678",
+      "target_label": "Task-5",
+      "created_at": 1770340008349
+    }
+  ],
+  "properties": {}
+}

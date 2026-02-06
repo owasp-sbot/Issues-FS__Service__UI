@@ -1,0 +1,17 @@
+{
+  "node_id": "d7219c35",
+  "node_type": "bug",
+  "node_index": 3,
+  "label": "Bug-3",
+  "title": "Invalid Obj_Id in created_by field causes API errors",
+  "description": "Issues created with 'claude-code' as created_by value fail validation because Obj_Id requires exactly 8 hexadecimal characters. The API returns error: 'value provided was not a valid Obj_Id: claude-code'",
+  "status": "confirmed",
+  "created_at": 1770340247768,
+  "updated_at": 1770340247768,
+  "tags": ["validation", "obj-id", "api-error"],
+  "links": [],
+  "properties": {
+    "error_message": "in Obj_Id: value provided was not a valid Obj_Id: claude-code",
+    "affected_endpoint": "/nodes/api/nodes"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "node_id": "2431ee54",
+  "node_type": "feature",
+  "node_index": 2,
+  "label": "Feature-2",
+  "title": "Playwright UI Testing",
+  "description": "Implement browser automation testing for the Issues Tracker console UI using Playwright. This includes headless testing support with screenshot capture for test evidence.",
+  "status": "in-progress",
+  "created_at": 1770339633775,
+  "updated_at": 1770339633775,
+  "created_by": "ae6982ea",
+  "tags": ["testing", "ui", "playwright"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-task",
+      "target_id": "042e2994",
+      "target_label": "Task-3",
+      "created_at": 1770339633775
+    },
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-task",
+      "target_id": "b0f73084",
+      "target_label": "Task-4",
+      "created_at": 1770339633775
+    },
+    {
+      "link_type_id": "3136db38",
+      "verb": "blocked-by",
+      "target_id": "9317aa20",
+      "target_label": "Bug-1",
+      "created_at": 1770339633775
+    },
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-task",
+      "target_id": "4b874678",
+      "target_label": "Task-5",
+      "created_at": 1770339714988
+    },
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-task",
+      "target_id": "d39fbcd3",
+      "target_label": "Task-6",
+      "created_at": 1770340008349
+    },
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-task",
+      "target_id": "2053672c",
+      "target_label": "Task-7",
+      "created_at": 1770340008349
+    }
+  ],
+  "properties": {}
+}

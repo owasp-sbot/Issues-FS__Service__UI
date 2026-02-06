@@ -1,5 +1,5 @@
 #!/bin/bash
-PORT=10041
+PORT=${ISSUES_FS__UI__PORT:-10051}                                               # Default port 10041
 
 SCRIPT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 export PYTHONPATH="${SCRIPT_DIR}:${SCRIPT_DIR}/../Issues-FS:${SCRIPT_DIR}/../Issues-FS__Service:${PYTHONPATH}"
@@ -17,8 +17,9 @@ fi
 
 echo ""
 echo "Issue Tracking Configuration:"
-echo "  ISSUES__IN_MEMORY = ${ISSUES__IN_MEMORY:-true (default)}"
-echo "  ISSUES__PATH      = ${ISSUES__PATH:-.issues (default)}"
+echo "  ISSUES_FS__UI__PORT = ${PORT}"
+echo "  ISSUES__IN_MEMORY   = ${ISSUES__IN_MEMORY:-true (default)}"
+echo "  ISSUES__PATH        = ${ISSUES__PATH:-.issues (default)}"
 echo ""
 
 poetry run uvicorn issues_fs_service_ui.fast_api.lambda_handler:app --reload --host 0.0.0.0 --port $PORT \

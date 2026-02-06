@@ -1,0 +1,15 @@
+{
+  "node_id": "7f74559c",
+  "node_type": "bug",
+  "node_index": 2,
+  "label": "Bug-2",
+  "title": "New issues are created in the old format",
+  "description": "When creating new issues via the UI, they are created using the old data structure format instead of the current issue.json format. This affects the consistency of the issues database and may cause compatibility issues with newer tooling.",
+  "status": "confirmed",
+  "created_at": 1770340008349,
+  "updated_at": 1770340008349,
+  "created_by": "ae6982ea",
+  "tags": ["data-format", "compatibility", "issues-tracker"],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,33 @@
+{
+  "node_id": "4b874678",
+  "node_type": "task",
+  "node_index": 5,
+  "label": "Task-5",
+  "title": "Add OSBot-Playwright integration for UI testing",
+  "description": "Integrate OSBot-Playwright (https://github.com/owasp-sbot/OSBot-Playwright) as the browser automation solution for UI testing. OSBot-Playwright provides a robust wrapper around Playwright with existing infrastructure for headless testing.",
+  "status": "backlog",
+  "created_at": 1770339714988,
+  "updated_at": 1770339714988,
+  "created_by": "ae6982ea",
+  "tags": ["testing", "osbot", "playwright", "browser-automation"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "task-of",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770339714988
+    },
+    {
+      "link_type_id": "3136db38",
+      "verb": "blocks",
+      "target_id": "042e2994",
+      "target_label": "Task-3",
+      "created_at": 1770340008349
+    }
+  ],
+  "properties": {
+    "github_repo": "https://github.com/owasp-sbot/OSBot-Playwright",
+    "branch": "dev"
+  }
+}

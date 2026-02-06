@@ -1,0 +1,23 @@
+{
+  "node_id": "d39fbcd3",
+  "node_type": "task",
+  "node_index": 6,
+  "label": "Task-6",
+  "title": "Add AWS Lambda publishing for Issues-FS__Service__UI",
+  "description": "Implement AWS Lambda deployment pipeline for the Issues-FS Service UI. This includes CI/CD workflow, lambda handler configuration, and deployment scripts similar to Issues-FS__Service.",
+  "status": "backlog",
+  "created_at": 1770340008349,
+  "updated_at": 1770340008349,
+  "created_by": "ae6982ea",
+  "tags": ["aws", "lambda", "deployment", "ci-cd"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "task-of",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770340008349
+    }
+  ],
+  "properties": {}
+}

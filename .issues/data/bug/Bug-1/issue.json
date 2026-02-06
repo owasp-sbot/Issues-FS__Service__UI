@@ -1,0 +1,27 @@
+{
+  "node_id": "9317aa20",
+  "node_type": "bug",
+  "node_index": 1,
+  "label": "Bug-1",
+  "title": "Playwright pytest integration has compatibility issues",
+  "description": "Running Playwright tests with pytest results in INTERNALERROR with IndexError in _pytest source.py. Tests fail during report generation phase. Occurs on Python 3.13 with pytest-playwright 0.7.2. Workaround: Use OSBot-based browser automation instead.",
+  "status": "confirmed",
+  "created_at": 1770339633775,
+  "updated_at": 1770339633775,
+  "created_by": "ae6982ea",
+  "tags": ["testing", "playwright", "compatibility"],
+  "links": [
+    {
+      "link_type_id": "3136db38",
+      "verb": "blocks",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770339633775
+    }
+  ],
+  "properties": {
+    "python_version": "3.13",
+    "pytest_playwright_version": "0.7.2",
+    "error_type": "IndexError in get_statement_startend2"
+  }
+}

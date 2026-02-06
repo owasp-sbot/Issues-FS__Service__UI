@@ -1,0 +1,26 @@
+{
+  "total_nodes": 10,
+  "last_updated": 1770340247768,
+  "type_counts": [
+    {
+      "count": 0,
+      "node_type": "git-repo"
+    },
+    {
+      "count": 3,
+      "node_type": "bug"
+    },
+    {
+      "count": 5,
+      "node_type": "task"
+    },
+    {
+      "count": 2,
+      "node_type": "feature"
+    },
+    {
+      "count": 0,
+      "node_type": "person"
+    }
+  ]
+}
