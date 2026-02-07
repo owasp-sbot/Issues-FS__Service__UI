@@ -1,0 +1,15 @@
+{
+  "node_id": "6d0c4eec",
+  "node_type": "feature",
+  "node_index": 5,
+  "label": "Feature-5",
+  "title": "As I reviewer I should be able to easily read new dev briefs",
+  "description": "like the ones created by the architect",
+  "status": "proposed",
+  "created_at": 1770507108883,
+  "updated_at": 1770507108883,
+  "created_by": "e274bbbd",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

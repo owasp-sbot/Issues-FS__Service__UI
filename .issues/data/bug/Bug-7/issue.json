@@ -1,0 +1,24 @@
+{
+  "node_id": "b7c8d9e0",
+  "node_type": "bug",
+  "node_index": 7,
+  "label": "Bug-7",
+  "title": "No detection or recovery mechanism for corrupted issue data",
+  "status": "confirmed",
+  "tags": ["data-integrity", "validation", "graph-health", "P1"],
+  "properties": {
+    "priority": "P1",
+    "severity": "high",
+    "found_in": "Issues-FS (core + CLI + Service UI)",
+    "description": "When issue data contains values that violate Safe_Str validation patterns (e.g. display_name with hyphens failing Safe_Str__Node_Type_Display regex ^[A-Z][a-zA-Z0-9 ]*$), the system throws a ValueError at runtime with no recovery path. There is no mechanism to: (1) detect corrupted data before it causes runtime errors, (2) report which specific fields/nodes have invalid data, (3) provide a graph-based view of data integrity issues, or (4) offer guided repair workflows.",
+    "steps_to_reproduce": [
+      "Add a node type with display_name containing a hyphen (e.g. 'Role-Dev')",
+      "Attempt to load or list node types",
+      "System throws: ValueError: in Safe_Str__Node_Type_Display, value does not match required pattern: ^[A-Z][a-zA-Z0-9 ]*$",
+      "No indication of which field, which file, or how to fix it"
+    ],
+    "expected_behaviour": "System should: (1) validate all data on load and report issues as a structured graph of data integrity findings, (2) continue operating with degraded data flagged rather than crashing, (3) provide a repair/migration workflow to fix invalid data, (4) expose data health status through the UI and API",
+    "actual_behaviour": "Unhandled ValueError crashes the operation. User must manually inspect JSON files to find and fix the invalid data.",
+    "proposed_solution": "Create a Data Integrity Service that: scans .issues/ data against all Safe_Str patterns and schema constraints, produces a graph of findings (each finding is a node linked to the affected issue node), provides fix suggestions (e.g. 'Role-Dev' -> 'Role Dev'), exposes a /health or /validate endpoint, integrates with the UI to show data health status, can be run as a CLI command (issues-fs validate)"
+  }
+}

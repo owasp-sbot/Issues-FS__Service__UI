@@ -1,0 +1,15 @@
+{
+  "node_id": "bbe96996",
+  "node_type": "task",
+  "node_index": 8,
+  "label": "Task-8",
+  "title": "Create role.md for new Cartographer role",
+  "description": "see bigger description of this role here: roles/Issues-FS__Dev__Role__Cartographer/docs/v0_4_0__issues-fs__cartographer-role.md\n\n(task for the Librarian)",
+  "status": "backlog",
+  "created_at": 1770506464026,
+  "updated_at": 1770506464026,
+  "created_by": "b275b8d7",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

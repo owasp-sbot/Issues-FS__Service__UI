@@ -1,0 +1,17 @@
+{
+  "node_id": "024841f0",
+  "node_type": "bug",
+  "node_index": 6,
+  "label": "Bug-6",
+  "title": "in the 'Issues' panel_section the 'New' button is Red",
+  "description": "which is not a good color to use since 'red is bad' \nsame issue happens on the 'Create Bug' button which is also red (this is inside the 'Create New Bug' modal view",
+  "status": "backlog",
+  "created_at": 1770504974689,
+  "updated_at": 1770504974689,
+  "created_by": "967ea8e7",
+  "tags": [
+    "UI"
+  ],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,15 @@
+{
+  "node_id": "22d751dd",
+  "node_type": "task",
+  "node_index": 10,
+  "label": "Task-10",
+  "title": "(for librarian) every document created needs to have an .issue with specific type",
+  "description": "the contents of the document should NOT be in the .issues folder/item, but we should have a node for it (in the repo that the folder was added), and the document should contain at least the Label and Issue-Id for both document created and it's parent (i.e. who the issue created is linked to)",
+  "status": "backlog",
+  "created_at": 1770507511538,
+  "updated_at": 1770507511538,
+  "created_by": "ed966aef",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

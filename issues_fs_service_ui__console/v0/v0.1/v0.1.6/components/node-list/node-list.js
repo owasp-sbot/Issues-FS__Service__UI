@@ -49,6 +49,9 @@
         // Call original render first
         _originalRender.call(this);
 
+        // Fix type filter button labels with proper pluralisation
+        this._fixTypeFilterLabels();
+
         // Add view mode toggle to toolbar
         this._injectViewModeToggle();
 
@@ -56,6 +59,24 @@
         if (this.state.viewMode === 'tree' && !this.state.loading && !this.state.error) {
             this._renderTreeView();
         }
+    };
+
+    // Fix type filter button labels with proper pluralisation and icons
+    NodeList.prototype._fixTypeFilterLabels = function() {
+        if (!window.issuesApp.pluralizeType) return;
+
+        const buttons = this.querySelectorAll('.nl-type-btn[data-type]');
+        buttons.forEach(btn => {
+            const type = btn.getAttribute('data-type');
+            if (type && type !== 'all') {
+                const nodeTypes = window.issuesApp.nodeTypes || {};
+                const config    = nodeTypes[type];
+                const icon      = config?.icon || '📄';
+                const plural    = window.issuesApp.pluralizeType(type);
+                btn.textContent = '';
+                btn.textContent = `${icon} ${plural}`;
+            }
+        });
     };
 
     // Inject view mode toggle button

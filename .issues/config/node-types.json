@@ -78,6 +78,278 @@
       ],
       "default_status": "active",
       "properties": []
+    },
+    {
+      "type_id": "a1b2c3d4",
+      "name": "user-story",
+      "display_name": "User Story",
+      "description": "User-facing requirement or capability described from the user's perspective",
+      "icon": "",
+      "color": "#f59e0b",
+      "statuses": [
+        "draft",
+        "ready",
+        "in-progress",
+        "done",
+        "cancelled"
+      ],
+      "default_status": "draft",
+      "properties": []
+    },
+    {
+      "type_id": "d1e2f3a4",
+      "name": "role-dev",
+      "display_name": "Role Dev",
+      "description": "Issue assigned to or owned by the Dev role - implementation, bug fixes, unit tests",
+      "icon": "",
+      "color": "#06b6d4",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "d2e3f4a5",
+      "name": "role-architect",
+      "display_name": "Role Architect",
+      "description": "Issue assigned to or owned by the Architect role - decisions, contracts, boundaries",
+      "icon": "",
+      "color": "#7c3aed",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "d3e4f5a6",
+      "name": "role-conductor",
+      "display_name": "Role Conductor",
+      "description": "Issue assigned to or owned by the Conductor role - orchestration, priorities, coordination",
+      "icon": "",
+      "color": "#ec4899",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "d4e5f6a7",
+      "name": "role-qa",
+      "display_name": "Role QA",
+      "description": "Issue assigned to or owned by the QA role - testing, quality gates, defect tracking",
+      "icon": "",
+      "color": "#f97316",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "d5e6f7a8",
+      "name": "role-devops",
+      "display_name": "Role DevOps",
+      "description": "Issue assigned to or owned by the DevOps role - CI/CD, releases, infrastructure",
+      "icon": "",
+      "color": "#14b8a6",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "d6e7f8a9",
+      "name": "role-librarian",
+      "display_name": "Role Librarian",
+      "description": "Issue assigned to or owned by the Librarian role - documentation, knowledge curation, connectivity",
+      "icon": "",
+      "color": "#a855f7",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "d7e8f9b0",
+      "name": "role-cartographer",
+      "display_name": "Role Cartographer",
+      "description": "Issue assigned to or owned by the Cartographer role - mapping ecosystem topology, dependency graphs, cross-repo relationships",
+      "icon": "",
+      "color": "#0ea5e9",
+      "statuses": [
+        "backlog",
+        "assigned",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e1a2b3c4",
+      "name": "core",
+      "display_name": "Core",
+      "description": "Issue for Issues-FS core library (graph services, schemas, storage)",
+      "icon": "",
+      "color": "#6366f1",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e2b3c4d5",
+      "name": "cli",
+      "display_name": "Cli",
+      "description": "Issue for Issues-FS CLI (command-line interface)",
+      "icon": "",
+      "color": "#10b981",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e3c4d5e6",
+      "name": "service",
+      "display_name": "Service",
+      "description": "Issue for Issues-FS Service (FastAPI REST server)",
+      "icon": "",
+      "color": "#f43f5e",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e4d5e6f7",
+      "name": "client",
+      "display_name": "Client",
+      "description": "Issue for Issues-FS Service Client Python (schemas + API client)",
+      "icon": "",
+      "color": "#8b5cf6",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e5e6f7a8",
+      "name": "ui",
+      "display_name": "Ui",
+      "description": "Issue for Issues-FS Service UI (web interface)",
+      "icon": "",
+      "color": "#ec4899",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e6f7a8b9",
+      "name": "docs",
+      "display_name": "Docs",
+      "description": "Issue for Issues-FS Docs (documentation, architecture, briefs)",
+      "icon": "",
+      "color": "#f59e0b",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e7a8b9c0",
+      "name": "github",
+      "display_name": "Github",
+      "description": "Issue for Issues-FS Service GitHub (GitHub sync integration)",
+      "icon": "",
+      "color": "#1f2937",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
+    },
+    {
+      "type_id": "e8b9c0d1",
+      "name": "s3",
+      "display_name": "S3",
+      "description": "Issue for Issues-FS Service S3 (S3 storage backend)",
+      "icon": "",
+      "color": "#f97316",
+      "statuses": [
+        "backlog",
+        "todo",
+        "in-progress",
+        "review",
+        "done"
+      ],
+      "default_status": "backlog",
+      "properties": []
     }
   ]
 }

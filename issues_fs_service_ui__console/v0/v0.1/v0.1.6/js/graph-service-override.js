@@ -26,20 +26,62 @@
 
     // Default icon mapping for types without icons
     const DEFAULT_ICONS = {
-        'bug': '🔴',
-        'task': '🔵',
-        'feature': '🟢',
-        'person': '🟣',
-        'version': '📦',
-        'user-story': '📖',
-        'project': '📁',
-        'release': '🚀',
-        'epic': '⭐',
-        'story': '📝'
+        'bug'                : '🐛',
+        'task'               : '🔵',
+        'feature'            : '🟢',
+        'person'             : '🟣',
+        'version'            : '📦',
+        'user-story'         : '📖',
+        'project'            : '📁',
+        'release'            : '🚀',
+        'epic'               : '⭐',
+        'story'              : '📝',
+        'role-dev'           : '👨‍💻',
+        'role-architect'     : '🏗️',
+        'role-conductor'     : '🎼',
+        'role-qa'            : '🔍',
+        'role-devops'        : '⚙️',
+        'role-librarian'     : '📚',
+        'role-cartographer'  : '🗺️',
+        'core'               : '🧬',
+        'cli'                : '💻',
+        'service'            : '🌐',
+        'client'             : '🔌',
+        'ui'                 : '🖥️',
+        'docs'               : '📝',
+        'github'             : '🐙',
+        's3'                 : '☁️'
     };
 
     // Fallback icon for unknown types
     const FALLBACK_ICON = '📄';
+
+    // Proper pluralisation for type names displayed in filter buttons
+    const PLURAL_OVERRIDES = {
+        'user-story'         : 'User Stories',
+        'person'             : 'Persons',
+        'bug'                : 'Bugs',
+        'task'               : 'Tasks',
+        'feature'            : 'Features',
+        'project'            : 'Projects',
+        'release'            : 'Releases',
+        'role-dev'           : 'Role Devs',
+        'role-architect'     : 'Role Architects',
+        'role-conductor'     : 'Role Conductors',
+        'role-qa'            : 'Role QAs',
+        'role-devops'        : 'Role DevOps',
+        'role-librarian'     : 'Role Librarians',
+        'role-cartographer'  : 'Role Cartographers',
+        'git-repo'           : 'Git Repos',
+        'core'               : 'Core',
+        'cli'                : 'CLI',
+        'service'            : 'Service',
+        'client'             : 'Client',
+        'ui'                 : 'UI',
+        'docs'               : 'Docs',
+        'github'             : 'GitHub',
+        's3'                 : 'S3'
+    };
 
     /**
      * Fetch node types from API and update window.issuesApp.nodeTypes
@@ -134,6 +176,22 @@
         });
     }, 100);
 
-    console.log('[Issues UI v0.1.6] Graph service extended: dynamic type loading from /types/api/types');
+    // Expose PLURAL_OVERRIDES so other components can use proper pluralisation
+    window.issuesApp.pluralOverrides = PLURAL_OVERRIDES;
+
+    /**
+     * Get the plural display name for a type.
+     * Used by type filter buttons in the node list.
+     */
+    window.issuesApp.pluralizeType = function(typeName) {
+        if (PLURAL_OVERRIDES[typeName]) {
+            return PLURAL_OVERRIDES[typeName];
+        }
+        // Fallback: capitalize and append 's'
+        const display = typeName.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+        return display + 's';
+    };
+
+    console.log('[Issues UI v0.1.6] Graph service extended: dynamic type loading, role icons, plural overrides');
 
 })();

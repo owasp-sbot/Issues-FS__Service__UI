@@ -1,0 +1,15 @@
+{
+  "node_id": "0ebdcda4",
+  "node_type": "bug",
+  "node_index": 8,
+  "label": "Bug-8",
+  "title": "can't create issue for 'Role-librarian'",
+  "description": "we get an Create failed error in Safe_Str__Node_Label (in the 'Create new Bug' UI)",
+  "status": "backlog",
+  "created_at": 1770506607912,
+  "updated_at": 1770506607912,
+  "created_by": "000351af",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

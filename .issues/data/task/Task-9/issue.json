@@ -1,0 +1,15 @@
+{
+  "node_id": "64f255ba",
+  "node_type": "task",
+  "node_index": 9,
+  "label": "Task-9",
+  "title": "Librarian to add rule about version to use when a document is created",
+  "description": "when docs are created (for example with briefs) they should be using the version number from the repo that file will be added to (for example v0.2.12) which should exist in the markdown frontmatter, the markdown text and as the prefix for the file name\n\nfor example v0.1.0__issues-fs__role-based-agent-coordination.md \n\nnote that v0.1.0 should be used, not v0_1_0",
+  "status": "backlog",
+  "created_at": 1770507337535,
+  "updated_at": 1770507337535,
+  "created_by": "06fcb917",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}
