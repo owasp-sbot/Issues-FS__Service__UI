@@ -1,0 +1,15 @@
+{
+  "node_id": "952b055f",
+  "node_type": "feature",
+  "node_index": 8,
+  "label": "Feature-8",
+  "title": "as a code reviewer I should have a way to easily add a comment to a line of code",
+  "description": "this should be done in a page in this current UI where I should have a + button next to the diff I'm reviewing and have the ability to create a 'child' issue to this change\n\nthis would be a new issue linked to the current file's issue which is linked to the task/bug issue\n\nI should also have the ability to make it a 'question' , 'observation' , 'coding standard note', 'bug', 'security issue', etc...\n\n\nrelated to this is the user story: \"as a reviewer I should have an easy way to see and consume the answers to the comments/issues added during a code review (the ones created in the workflow described above\")",
+  "status": "proposed",
+  "created_at": 1770512474722,
+  "updated_at": 1770512474722,
+  "created_by": "2be9c72a",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

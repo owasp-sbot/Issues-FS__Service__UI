@@ -1,0 +1,15 @@
+{
+  "node_id": "c022ddde",
+  "node_type": "task",
+  "node_index": 19,
+  "label": "Task-19",
+  "title": "add guidance for dev (and other bots) to also provide the commit message text",
+  "description": "they shouldn't be doing the commit but they should write the commit message\n\nmap out the best workflow to make this happen",
+  "status": "backlog",
+  "created_at": 1770514799669,
+  "updated_at": 1770514799669,
+  "created_by": "561c2077",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

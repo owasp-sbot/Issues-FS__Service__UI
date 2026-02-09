@@ -1,0 +1,15 @@
+{
+  "node_id": "d742b51d",
+  "node_type": "feature",
+  "node_index": 9,
+  "label": "Feature-9",
+  "title": "we need a new issue type of 'small features'",
+  "description": "which don't really fell like a bug or a task or user-story",
+  "status": "proposed",
+  "created_at": 1770512520650,
+  "updated_at": 1770512520650,
+  "created_by": "7152d65b",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

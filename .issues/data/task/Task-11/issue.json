@@ -1,0 +1,15 @@
+{
+  "node_id": "d0139af4",
+  "node_type": "task",
+  "node_index": 11,
+  "label": "Task-11",
+  "title": "add to QA role the responsibility to propose code changes to the Dev",
+  "description": "kinda like a pull request, but we can start doing this using issues-fs\n\nfor example when the QA see this\n\n            if str(node_info.node_type) != str(node_type):\n\nsince there is a guidance that mentions that we should never do casting str like this (since the Type_Safe classes handle this ok), the QA agent should send to the dev the 'fixed code', for the Dev to review and add to the code\n\nin this case the fix would be \n\n            if node_info.node_type != node_type:",
+  "status": "backlog",
+  "created_at": 1770512770895,
+  "updated_at": 1770512770895,
+  "created_by": "267ea70a",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,15 @@
+{
+  "node_id": "014e4d4b",
+  "node_type": "task",
+  "node_index": 14,
+  "label": "Task-14",
+  "title": "Vulnerability: path transversal  in issue_path",
+  "description": "issue_path = f\"{folder_path}/{FILE_NAME__ISSUE_JSON}\"\n\nin line 196 of file \n\n./modules/Issues-FS/issues_fs/issues/phase_1/Issue__Children__Service.py\n\nalso do a security review of the Issues_UI code base to find other cases of this insecure pattern (and see what other issues are discovered)",
+  "status": "backlog",
+  "created_at": 1770513352019,
+  "updated_at": 1770513352019,
+  "created_by": "419d3f39",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

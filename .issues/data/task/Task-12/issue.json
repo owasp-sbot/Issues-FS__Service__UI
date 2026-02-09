@@ -1,0 +1,15 @@
+{
+  "node_id": "7bdc85b1",
+  "node_type": "task",
+  "node_index": 12,
+  "label": "Task-12",
+  "title": "process the new role : Issues-FS__Dev__Role__AppSec",
+  "description": "for DevOps and Librarian",
+  "status": "backlog",
+  "created_at": 1770513178497,
+  "updated_at": 1770513178497,
+  "created_by": "763c1aaa",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,15 @@
+{
+  "node_id": "ba6cafb2",
+  "node_type": "task",
+  "node_index": 16,
+  "label": "Task-16",
+  "title": "librarian to document this bad coding partern (for this cases handled by Type_Safe)",
+  "description": "in this code\n\nchild_issue = Schema__Node(node_id     = Node_Id()                                      ,\n                                   node_type   = Safe_Str__Node_Type(child_type)                ,\n                                   node_index  = self.extract_index_from_label(child_label)     ,\n                                   label       = Safe_Str__Node_Label(child_label)              ,\n                                   title       = child_data.title                          ,\n                                   description = child_data.description if child_data.description else '',\n                                   status      = Safe_Str__Status(str(child_data.status)) if child_data.status else Safe_Str__Status('backlog'),\n                                 \n\nwe don't need to do this\nnode_type   = Safe_Str__Node_Type(child_type)                \nsince Type_Safe will do that if needed \n\nwe can just do \n\nnode_type   = child_type\n\nsame here\n\nlabel       = Safe_Str__Node_Label(child_label) \n\n\nhere we don't need to do this\n\ndescription = child_data.description if child_data.description else '',\n\nbecause child_data.description  should be '' if empty (because that is done by Type_Safe) \n\nin here\n\nstatus      = Safe_Str__Status(str(child_data.status)) if child_data.status else Safe_Str__Status('backlog'),\n\nwe don't need to do this\n\nSafe_Str__Status(str(\n\nor this \n\nSafe_Str__Status('backlog'),\n\nand for the cases where want to have a default value, that should be calculated outside this object creation, and the static value 'backlog' in this case, should be DEFAULT__* const var",
+  "status": "backlog",
+  "created_at": 1770514310301,
+  "updated_at": 1770514310301,
+  "created_by": "ceb97b1d",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

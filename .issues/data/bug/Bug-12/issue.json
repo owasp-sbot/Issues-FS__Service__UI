@@ -1,0 +1,15 @@
+{
+  "node_id": "fa036b18",
+  "node_type": "bug",
+  "node_index": 12,
+  "label": "Bug-12",
+  "title": "the graph view doesn't show child issues",
+  "description": "we also need to think about the difference (visually) of a child-issue and linked-issue",
+  "status": "backlog",
+  "created_at": 1770511942926,
+  "updated_at": 1770511942926,
+  "created_by": "b0ebffab",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,15 @@
+{
+  "node_id": "65ae4ba0",
+  "node_type": "feature",
+  "node_index": 11,
+  "label": "Feature-11",
+  "title": "in the Create new issue, we should be able to resize the model view",
+  "description": "also have a thread with the architect, UI and QA role about the idea of changing this modal 'Create New Feature' into a full/normal page",
+  "status": "proposed",
+  "created_at": 1770514094411,
+  "updated_at": 1770514094411,
+  "created_by": "143ba7a9",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}
