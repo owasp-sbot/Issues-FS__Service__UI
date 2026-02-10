@@ -1,0 +1,30 @@
+{
+  "node_id": "2053672c",
+  "node_type": "task",
+  "node_index": 7,
+  "label": "Task-7",
+  "title": "Create Website__QA folder for QA materials",
+  "description": "Create a Website__QA folder structure for storing QA-related materials for Issues-FS Service UI. This includes Playwright test screenshots, test execution reports, and other evidence from QA actions.",
+  "status": "backlog",
+  "created_at": 1770340008349,
+  "updated_at": 1770340008349,
+  "created_by": "ae6982ea",
+  "tags": ["qa", "testing", "screenshots", "documentation"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "task-of",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770340008349
+    },
+    {
+      "link_type_id": "936d89e6",
+      "verb": "depends-on",
+      "target_id": "4b874678",
+      "target_label": "Task-5",
+      "created_at": 1770340008349
+    }
+  ],
+  "properties": {}
+}

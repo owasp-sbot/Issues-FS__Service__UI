@@ -1,0 +1,29 @@
+{
+  "node_id": "ba0b1c2d",
+  "node_type": "bug",
+  "node_index": 10,
+  "label": "Bug-10",
+  "title": "API validation errors display as [object Object] instead of human-readable messages",
+  "status": "confirmed",
+  "tags": ["ui", "service", "error-handling", "P2"],
+  "properties": {
+    "priority": "P2",
+    "severity": "medium",
+    "found_in": "Issues-FS Service UI + Issues-FS Service",
+    "description": "Two related problems: (1) UI side: When the create-node API returns a Pydantic validation error (HTTP 422), the UI error handler displays '[object Object]' instead of extracting the actual error message from the response body. The error banner just calls toString() on the response JSON object. (2) Server side: The FastAPI/Pydantic error response returns a raw validation detail object like {\"detail\": [{\"type\": \"string_type\", \"loc\": [\"body\", \"description\"], \"msg\": \"Input should be a valid string\", \"input\": null}]} which is technically correct but not user-friendly. The server should catch these and return a cleaner error message.",
+    "steps_to_reproduce": [
+      "Open the Issues-FS UI and click +New to create an issue",
+      "Select any valid type (e.g. Task)",
+      "Enter a title but leave the description field empty (null)",
+      "Click Create",
+      "API returns 422 with Pydantic validation detail: description field 'Input should be a valid string' with input: null",
+      "UI displays red error banner showing '[object Object]' instead of the actual validation message"
+    ],
+    "expected_behaviour": "UI should parse the Pydantic error response and display something like 'Validation error: Description must be a string (cannot be empty)'. Server should ideally catch null optional fields and either set defaults or return a human-readable error.",
+    "actual_behaviour": "UI shows '[object Object]' in the error banner. User has no idea what went wrong. Must open browser DevTools Network tab to see the actual error.",
+    "fix_needed_in": [
+      "Issues-FS__Service__UI: Error handler in create-node form should parse response.detail array and extract .msg fields",
+      "Issues-FS__Service: API endpoint should handle null description gracefully (default to empty string) or return a cleaner error format"
+    ]
+  }
+}

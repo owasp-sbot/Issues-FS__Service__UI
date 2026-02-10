@@ -1,0 +1,25 @@
+[tool.poetry]
+name        = "issues_fs_service_ui"
+version     = "v0.1.10"
+description = "Issues-FS Service UI - Web-based user interface"
+authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
+license     = "Apache 2.0"
+readme      = "README.md"
+homepage    = "https://github.com/owasp-sbot/Issues-FS__Service__UI"
+repository  = "https://github.com/owasp-sbot/Issues-FS__Service__UI"
+
+[tool.poetry.dependencies]
+python                    = "^3.12"
+osbot-utils               = "*"
+osbot-fast-api            = "*"
+issues-fs                 = "*"
+issues-fs-service         = "*"
+osbot-fast-api-serverless = "^1.34.0"
+issues-fs-cli             = "*"
+
+[tool.poetry.group.dev.dependencies]
+pytest-playwright = "^0.7.2"
+
+[build-system]
+requires = ["poetry-core>=1.9.1"]
+build-backend = "poetry.core.masonry.api"

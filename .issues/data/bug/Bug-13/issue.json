@@ -1,0 +1,15 @@
+{
+  "node_id": "a38a00a8",
+  "node_type": "bug",
+  "node_index": 13,
+  "label": "Bug-13",
+  "title": "all schemas created in the Issuses_UI project should have __Issues__ in the name",
+  "description": "for for example\n\n\nclass Schema__Node__Info(Type_Safe):                                              # Node discovery info\n    label     : Safe_Str__Node_Label                                              # e.g., \"Task-6\"\n    path      : Safe_Str__File__Path                                              # e.g., \"data/project/Project-1/issues/...\"\n    node_type : Safe_Str__Node_Type                                               # e.g., \"task\"\n\nSchema__Node__Info should (at least) be Schema__Issue__Node__Info\n\nSafe_Str__Node_Label -> Safe_Str__Issue__Node_Label\nSafe_Str__Node_Label -> Safe_Str__Issue__Node_Label\nSafe_Str__Node_Type  -> Safe_Str__Issue__Node_Type",
+  "status": "backlog",
+  "created_at": 1770514487137,
+  "updated_at": 1770514487137,
+  "created_by": "b872aa39",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

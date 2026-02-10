@@ -1,0 +1,15 @@
+{
+  "node_id": "f0e5d500",
+  "node_type": "cli",
+  "node_index": 1,
+  "label": "Cli-1",
+  "title": "I should be able to launch the UI from any repo (which has an .issue folder)",
+  "description": "at the moment I can only start it from the _UI repo using ./scripts/run-locally.sh",
+  "status": "backlog",
+  "created_at": 1770506795835,
+  "updated_at": 1770506795835,
+  "created_by": "abceb1a8",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

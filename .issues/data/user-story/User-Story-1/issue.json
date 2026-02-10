@@ -1,0 +1,21 @@
+{
+  "node_id": "6f9e93f3",
+  "node_type": "user-story",
+  "node_index": 1,
+  "label": "User-Story-1",
+  "title": "Review architect and agent briefs in the Issues-FS UI",
+  "status": "draft",
+  "tags": ["ui", "briefs", "review-workflow"],
+  "properties": {
+    "as_a": "Project owner",
+    "i_want": "To be able to view, review and approve architect briefs, refactoring plans, and agent-generated documents directly in the Issues-FS UI",
+    "so_that": "I can review plans without needing to open files in an editor, and can approve/reject/comment on them through the issue tracking workflow",
+    "acceptance_criteria": [
+      "Briefs and plan documents (markdown) render in the UI with full formatting",
+      "Can link a brief document to an issue as an attachment or embedded content",
+      "Can add review comments and approval status to brief-linked issues",
+      "Navigation between related issues and their briefs is seamless"
+    ],
+    "notes": "This is critical for the Conductor workflow — the human stakeholder needs a way to review agent outputs without switching to file explorers or editors. The refactoring plan at roles/Issues-FS__Dev__Role__Architect/docs/plan__phase-2-refactoring.md is the first real use case."
+  }
+}

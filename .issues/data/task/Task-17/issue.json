@@ -1,0 +1,15 @@
+{
+  "node_id": "ded0ef4a",
+  "node_type": "task",
+  "node_index": 17,
+  "label": "Task-17",
+  "title": "Type_safe bool values don't need to be assigned to False",
+  "description": "like here \n\nclass Schema__Node__Response(Type_Safe):                                          # Node response wrapper\n    success : bool             = False                                            # Operation success flag\n    node    : Schema__Node     = None                                             # The loaded node (if found)\n    message : Safe_Str__Text                                                      # Error/status message\n\n\nsince they are already auto assigned that\n\nalso null values should only be assigned if we really want that value to be null\n\nnode    : Schema__Node     = None \n\nwhich might be ok in this case (or not)\n\nNote that Type_Safe tries to assign the default value of that type (if it can be created)",
+  "status": "backlog",
+  "created_at": 1770514626731,
+  "updated_at": 1770514626731,
+  "created_by": "5b4f5d5e",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

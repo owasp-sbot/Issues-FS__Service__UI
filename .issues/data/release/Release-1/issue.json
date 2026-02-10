@@ -1,0 +1,38 @@
+{
+  "node_id": "0ade06c6",
+  "node_type": "release",
+  "node_index": 1,
+  "label": "Release-1",
+  "title": "v0.2",
+  "description": "Version 0.2 release of Issues-FS Service UI. Includes UI testing infrastructure, AWS Lambda publishing, and QA materials support.",
+  "status": "in-progress",
+  "created_at": 1770341429042,
+  "updated_at": 1770341429042,
+  "tags": ["release", "v0.2"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "release-of",
+      "target_id": "ace23726",
+      "target_label": "Project-1",
+      "created_at": 1770341429042
+    },
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-feature",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770341429042
+    },
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "has-feature",
+      "target_id": "4d6fb1d1",
+      "target_label": "Feature-3",
+      "created_at": 1770341429042
+    }
+  ],
+  "properties": {
+    "version": "0.2"
+  }
+}

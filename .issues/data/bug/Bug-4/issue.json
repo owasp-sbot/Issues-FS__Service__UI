@@ -1,0 +1,15 @@
+{
+  "node_id": "78f9f814",
+  "node_type": "bug",
+  "node_index": 4,
+  "label": "Bug-4",
+  "title": "Role repo does not have the CI pipeline integrastion",
+  "description": "this is a task for the DevOps role",
+  "status": "backlog",
+  "created_at": 1770504475429,
+  "updated_at": 1770504475429,
+  "created_by": "79591591",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

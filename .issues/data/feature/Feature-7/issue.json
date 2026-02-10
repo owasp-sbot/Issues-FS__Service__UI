@@ -1,0 +1,15 @@
+{
+  "node_id": "d0cfecd5",
+  "node_type": "feature",
+  "node_index": 7,
+  "label": "Feature-7",
+  "title": "we need a way in the UI to change between projects",
+  "description": "i.e. between root .issues folder \n\nthis will need some backend changes (note that we should only go down the directly stack, not up)",
+  "status": "proposed",
+  "created_at": 1770512156946,
+  "updated_at": 1770512156946,
+  "created_by": "28d1aa1e",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

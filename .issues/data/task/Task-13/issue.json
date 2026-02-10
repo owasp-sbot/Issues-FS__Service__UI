@@ -1,0 +1,15 @@
+{
+  "node_id": "507e8128",
+  "node_type": "task",
+  "node_index": 13,
+  "label": "Task-13",
+  "title": "add support for Cmd+Enter to 'create task'",
+  "description": "where in the Create New Task UI (like I'm now)",
+  "status": "backlog",
+  "created_at": 1770513214651,
+  "updated_at": 1770513214651,
+  "created_by": "1ce8eedc",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

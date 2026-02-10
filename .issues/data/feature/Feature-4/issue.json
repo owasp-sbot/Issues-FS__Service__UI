@@ -1,0 +1,15 @@
+{
+  "node_id": "111a9d45",
+  "node_type": "feature",
+  "node_index": 4,
+  "label": "Feature-4",
+  "title": "add keyboard shortcuts to this UI,",
+  "description": "for example so that I can create a new issue with an specific key combination",
+  "status": "proposed",
+  "created_at": 1770504788101,
+  "updated_at": 1770504788101,
+  "created_by": "c0351997",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

@@ -1,0 +1,15 @@
+{
+  "node_id": "f27c17c9",
+  "node_type": "bug",
+  "node_index": 5,
+  "label": "Bug-5",
+  "title": "The delete button is too close to the other buttons in the UI",
+  "description": "this is quite dangerous, and is bad UX since that button needs to be available, but not in an easy to hit (accidentally) way",
+  "status": "backlog",
+  "created_at": 1770504860410,
+  "updated_at": 1770504860410,
+  "created_by": "a03b8f74",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

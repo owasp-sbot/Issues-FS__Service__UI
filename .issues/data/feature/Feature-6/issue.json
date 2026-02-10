@@ -1,0 +1,15 @@
+{
+  "node_id": "adcd251f",
+  "node_type": "feature",
+  "node_index": 6,
+  "label": "Feature-6",
+  "title": "change the ui navigation to be based on the _ path and be a full URL based",
+  "description": "we can make this work for only the main index.html page where we configure all request under particular path to be sent to the client\n\nthis could work , where this\n\nhttp://192.168.0.165:10051/console/v0/v0.1/v0.1.6/*\n\nalways returns the ./index.html file\n\nbut we need to make sure that static files are also not impacted by this\n\nthe idea is to allow paths like\n\nhttp://192.168.0.165:10051/console/v0/v0.1/v0.1.6/issues/Feature-1/Bug-12",
+  "status": "proposed",
+  "created_at": 1770511832941,
+  "updated_at": 1770511832941,
+  "created_by": "e5f1103e",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

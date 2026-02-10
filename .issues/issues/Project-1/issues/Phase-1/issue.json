@@ -1,0 +1,15 @@
+{
+  "node_id": "6ddf5737",
+  "node_type": "phase",
+  "node_index": 1,
+  "label": "Phase-1",
+  "title": "Phase 1",
+  "description": "Initial delivery phase",
+  "status": "active",
+  "created_at": 1770339269301,
+  "updated_at": 1770339269301,
+  "created_by": "54b53072",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

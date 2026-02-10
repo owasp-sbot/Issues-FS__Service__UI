@@ -1,0 +1,90 @@
+{
+  "total_nodes": 33,
+  "last_updated": 1770514799679,
+  "type_counts": [
+    {
+      "count": 0,
+      "node_type": "git-repo"
+    },
+    {
+      "count": 10,
+      "node_type": "bug"
+    },
+    {
+      "count": 12,
+      "node_type": "task"
+    },
+    {
+      "count": 10,
+      "node_type": "feature"
+    },
+    {
+      "count": 0,
+      "node_type": "person"
+    },
+    {
+      "count": 0,
+      "node_type": "user-story"
+    },
+    {
+      "count": 0,
+      "node_type": "role-dev"
+    },
+    {
+      "count": 0,
+      "node_type": "role-architect"
+    },
+    {
+      "count": 0,
+      "node_type": "role-conductor"
+    },
+    {
+      "count": 0,
+      "node_type": "role-qa"
+    },
+    {
+      "count": 0,
+      "node_type": "role-devops"
+    },
+    {
+      "count": 0,
+      "node_type": "role-librarian"
+    },
+    {
+      "count": 0,
+      "node_type": "role-cartographer"
+    },
+    {
+      "count": 0,
+      "node_type": "core"
+    },
+    {
+      "count": 1,
+      "node_type": "cli"
+    },
+    {
+      "count": 0,
+      "node_type": "service"
+    },
+    {
+      "count": 0,
+      "node_type": "client"
+    },
+    {
+      "count": 0,
+      "node_type": "ui"
+    },
+    {
+      "count": 0,
+      "node_type": "docs"
+    },
+    {
+      "count": 0,
+      "node_type": "github"
+    },
+    {
+      "count": 0,
+      "node_type": "s3"
+    }
+  ]
+}

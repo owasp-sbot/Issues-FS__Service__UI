@@ -1,0 +1,15 @@
+{
+  "node_id": "b16ba2be",
+  "node_type": "bug",
+  "node_index": 11,
+  "label": "Bug-11",
+  "title": "In the UI the back button should go where we were in this ui before",
+  "description": "at the moment we have good hash based navigation, which works ok on reload, but doesn't handle the case of the back button\n\nbasically we need to be populating the document.location history with every click/load/location-change",
+  "status": "backlog",
+  "created_at": 1770511653299,
+  "updated_at": 1770511653299,
+  "created_by": "f2eee08d",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

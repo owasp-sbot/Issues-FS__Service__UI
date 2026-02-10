@@ -1,0 +1,15 @@
+{
+  "node_id": "1fb115ca",
+  "node_type": "task",
+  "node_index": 15,
+  "label": "Task-15",
+  "title": "dev to refactor all code inside 'phase_1' folders since that is a legacy setup",
+  "description": "the code files in there need to be placed in the correct location",
+  "status": "backlog",
+  "created_at": 1770513908581,
+  "updated_at": 1770513908581,
+  "created_by": "8e546eaa",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

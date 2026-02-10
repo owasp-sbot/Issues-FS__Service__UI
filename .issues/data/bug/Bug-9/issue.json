@@ -1,0 +1,26 @@
+{
+  "node_id": "b9d0e1f2",
+  "node_type": "bug",
+  "node_index": 9,
+  "label": "Bug-9",
+  "title": "Hyphenated type names produce labels that fail Safe_Str__Node_Label validation",
+  "status": "confirmed",
+  "tags": ["data-integrity", "validation", "label-format", "P1", "core"],
+  "properties": {
+    "priority": "P1",
+    "severity": "high",
+    "found_in": "Issues-FS (core label generation)",
+    "related_to": "Bug-8",
+    "description": "The Safe_Str__Node_Label regex pattern ^[A-Z][a-zA-Z]*-\\d{1,5}$ requires labels in the format TypeName-Number (e.g. Bug-1, Feature-3). When a node type has a hyphenated name like 'role-librarian', the label generator produces 'Role-librarian-1' which contains two hyphens and a lowercase word after the first hyphen. This fails validation. ALL role-* type names and any future hyphenated types are affected.",
+    "steps_to_reproduce": [
+      "Create a node type with a hyphenated name (e.g. 'role-librarian', 'role-dev', 'user-story')",
+      "Attempt to create an issue of that type via the UI or API",
+      "Label generation produces e.g. 'Role-librarian-1'",
+      "Safe_Str__Node_Label rejects it: ValueError: value does not match required pattern: ^[A-Z][a-zA-Z]*-\\d{1,5}$"
+    ],
+    "expected_behaviour": "Either: (a) the label regex should support multi-segment type names like RoleLibrarian-1 or Role-Librarian-1, or (b) the label generator should collapse hyphenated type names to PascalCase (e.g. 'role-librarian' -> 'RoleLibrarian-1'), or (c) the label format should be extended to support the pattern",
+    "actual_behaviour": "ValueError crash on node creation. No issue is created.",
+    "affected_types": ["role-dev", "role-architect", "role-conductor", "role-qa", "role-devops", "role-librarian", "role-cartographer", "user-story", "git-repo"],
+    "workaround": "Use single-word type names (e.g. 'cli', 'core', 'docs') that produce valid labels. For role types, either change naming or fix the label generator."
+  }
+}

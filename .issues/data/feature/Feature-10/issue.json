@@ -1,0 +1,15 @@
+{
+  "node_id": "c62e9160",
+  "node_type": "feature",
+  "node_index": 10,
+  "label": "Feature-10",
+  "title": "coding guidance: never use str(...)",
+  "description": "the Type_Safe framework already has really good support for casting and managing type safe primitives assignments, concats, additions , etc...\n\nwhich means that this is usually a bug:\n\n            if str(node_info.node_type) != str(node_type):",
+  "status": "proposed",
+  "created_at": 1770512628565,
+  "updated_at": 1770512628565,
+  "created_by": "54afef9c",
+  "tags": [],
+  "links": [],
+  "properties": {}
+}

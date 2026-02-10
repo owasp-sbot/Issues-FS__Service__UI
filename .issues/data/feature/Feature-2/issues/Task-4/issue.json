@@ -1,0 +1,23 @@
+{
+  "node_id": "b0f73084",
+  "node_type": "task",
+  "node_index": 4,
+  "label": "Task-4",
+  "title": "Add configurable PORT env variable",
+  "description": "Update run-locally.sh to support ISSUES_FS__UI__PORT environment variable for configurable port binding. Default port is 10041.",
+  "status": "done",
+  "created_at": 1770339633775,
+  "updated_at": 1770339633775,
+  "created_by": "ae6982ea",
+  "tags": ["configuration", "devops"],
+  "links": [
+    {
+      "link_type_id": "d516fa2b",
+      "verb": "task-of",
+      "target_id": "2431ee54",
+      "target_label": "Feature-2",
+      "created_at": 1770339633775
+    }
+  ],
+  "properties": {}
+}
